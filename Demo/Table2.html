@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table2</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            color:red;
+            font-size: 40px;
+           text-align: center;
+        }
+       table ,th,td {
+        /*border:2px solid gray; border-collapse: collapse;-->*/
+        text-align: center;
+        font-size: 20px;
+        padding:12px;
+        width:1350px;
+       }
+       th{
+        background-color: blue;
+        color:blanchedalmond;
+       }
+       tr:nth-child(even){
+        background-color:crimson;
+        color:antiquewhite;
+       }
+     tr:nth-child(odd){
+        background-color:hotpink;
+        color:aliceblue
+     }
+     th,td{
+        border-radius: 50px;  
+     }
+     td:hover{
+        background-color:cadetblue;
+        cursor: pointer;
+        /*cursor:progress;*/
+     }
+
+       
+    </style>
+</head>
+<body>
+    <h1> Student Table</h1>
+    <table>
+        <tr>
+            <th>student name</th>
+            <th>college name</th>
+            <th>course fee</th>
+        </tr>
+        <tr>
+           <td>Aswani</td>
+           <td>Sri padmavathi mahile univercity</td>
+           <td>34000</td>
+        </tr>
+        <tr>
+            <td>lavanya</td>
+            <td>mohan babu univercity</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>pavani</td>
+            <td>sri venkatesvara univercity</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>bhanu prakash reddy</td>
+            <td>goutham college</td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>lukky</td>
+            <td>goutham college</td>
+            <td>500000</td>
+        </tr>
+        <tr>
+            <td>chennareddy</td>
+            <td>rayala semma</td>
+            <td>200000</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

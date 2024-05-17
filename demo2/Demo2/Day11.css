@@ -1,0 +1,46 @@
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSYmdwK3kLawMMTKh10NIErZ4LHYnosyAkC1FeCqi2g&s');
+    background-image: url('https://miro.medium.com/v2/resize:fit:640/1*PIboWG2sA_lWx0bgmRxcBQ.jpeg');
+
+   /* background:linear-gradient(red,blue,red,blue);
+    background:linear-gradient(to right,yellow,blue);
+    background:linear-gradient(to left,yellow,blue);
+    background:linear-gradient(to top,yellow,blue);
+    background:linear-gradient(to bottom,yellow,blue);*/
+
+   /* background: radial-gradient(blue,orange);
+    background: radial-gradient(blue,orange,pink,yellow,green,red,violet,white,black,blue,green);*/
+
+  background-repeat:no-repet;
+  background-size:contain;
+  background-position:center;
+  height:150vh;
+  font-size: 16px;
+
+}    
+h1{
+  color:red;
+  background-color: blue;
+  text-align:center;
+  text-decoration: underline;
+  text-shadow: 2px 2px green;
+}
+.assu{
+  color:blueviolet;
+  font-family:cursive;
+  font-size:larger;
+  text-align:center;
+  text-transform: lowercase;
+}
+#p1{
+  color:chartreuse;
+  font-family: verdhana;
+  font-style:italic;
+  font-size:medium;
+  text-decoration:azure;
+}
+#b2{
+  color:brown;
+  height:30vh;
+  width:50vw;
+}

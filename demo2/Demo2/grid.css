@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    height:200px;
+    width:500pxpx;
+   border:1px solid red;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap:10px;
+
+    
+}
+.box{
+
+
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    }
+    .box1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .box2{
+       grid-row:2/4;
+
+    }
+    .box5{
+        grid-column: 1/3;
+    }

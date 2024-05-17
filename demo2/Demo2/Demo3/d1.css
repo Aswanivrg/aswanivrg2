@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    margin:50px;
+    border: 1px solid green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0px;
+    color:white;
+    border:1px solid white;
+
+}
+.box1{
+    position: relative;
+    left:50px;         <!--50px,10px-->
+    top:20px;
+}
+.box2{
+    position:absolute;
+    left:opx;         <!--50px,10px-->
+    top:20px;
+}
